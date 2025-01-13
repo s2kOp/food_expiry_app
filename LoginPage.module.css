@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    min-height: 100vh;
+    background-image: url("/images/foodexp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 3em;
+    margin-top: 40px;
+}
+.wrapper{
+    border: 2px solid;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.myForm{
+    border: 1px solid white;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 400px;
+    min-width: 460px;
+    padding: 6px 12px;
+    margin-top: 200px;
+}
+
+.myInputs{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+}
+
+h2{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input{
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: hsla(0, 0%, 0%, 0.112);
+
+}
+
+input::placeholder{
+    color: hsl(0, 0%, 100%);
+}
+
+p{
+    text-align: center;
+}
+
+.myBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+button{
+    font-size: 1.5em;
+    width: 120px;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 4px 6px;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+    color: black;
+}
+
+button:hover{
+    background-color: hsla(0, 0%, 0%, 0.16);
+}
+p{
+    font-size: 1.3em;   
+}
+a{
+    margin-left: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}

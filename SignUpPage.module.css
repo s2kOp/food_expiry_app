@@ -1,0 +1,55 @@
+
+
+h2{
+    font-size: 3em;
+}
+
+.wrapper{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.myForm{
+    margin-top: 300px;
+    border: 1px solid white;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 440px;
+    min-width: 460px;
+    padding: 6px 12px;
+    margin-top: 200px;
+    backdrop-filter: blur(2px);
+}
+
+.myInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.myBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+button{
+    font-size: 1.5em;
+    width: 120px;
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 4px 6px;
+    font-weight: bold;
+    cursor: pointer;
+    background: transparent;
+}
+
+button:hover{
+    background-color: hsla(0, 0%, 0%, 0.16);
+}
